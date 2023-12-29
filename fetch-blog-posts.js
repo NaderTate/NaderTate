@@ -12,7 +12,8 @@ const fetchPosts = async () => {
   }
 };
 function generatePostCard(post) {
-  return `<a href="https://www.nailed-it.tech/articles/${post.slug.current}" target="_blank">
+  return `<svg fill="none" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%"> <a href="https://www.nailed-it.tech/articles/${post.slug.current}" target="_blank">
     <div style="position:relative;width:400px; overflow:hidden; margin:10px;">
       <img style="width:100%;border-radius:3px" src="${post.thumbnail}">
       <div style="border-radius:3px;position: absolute; bottom:5px; padding:5px; backdrop-filter: blur(10px); width:100%; background-color:rgba(0, 0, 0, 0.3); color:white">
@@ -20,7 +21,8 @@ function generatePostCard(post) {
         <span style="display:block;font-size:14;white-space: nowrap; overflow: hidden; text-overflow: ellipsis">${post.description}</span>
       </div>
     </div>
-  </a>`;
+  </a> </foreignObject>
+  </svg>`;
 }
 async function generateReadme(posts) {
   try {
