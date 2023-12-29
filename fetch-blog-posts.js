@@ -12,17 +12,15 @@ const fetchPosts = async () => {
   }
 };
 function generatePostCard(post) {
-  return `
-    <a href="https://www.nailed-it.tech/${post.slug.current}" target="_blank">
-      <div style="position:relative;width:400px; overflow:hidden">
-        <img style="width:100%" src="${post.thumbnail}">
-        <div style="position: absolute; bottom:0; padding:20px; backdrop-filter: blur(10px); width:100%">
-          <h3 style="font-size:30px">${post.title}</h3>
-          <p>${post.description}</p>
-        </div>
+  return `<a href="https://www.nailed-it.tech/articles/${post.slug.current}" target="_blank">
+    <div style="position:relative;width:400px; overflow:hidden; margin:10px;">
+      <img style="width:100%;border-radius:3px" src="${post.thumbnail}">
+      <div style="border-radius:3px;position: absolute; bottom:5px; padding:5px; backdrop-filter: blur(10px); width:100%; background-color:rgba(0, 0, 0, 0.3); color:white">
+        <span style="display:block;font-size:18px;font-weight:500;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${post.title}</span>
+        <span style="display:block;font-size:14;white-space: nowrap; overflow: hidden; text-overflow: ellipsis">${post.description}</span>
       </div>
-      </a>
-    `;
+    </div>
+  </a>`;
 }
 async function generateReadme(posts) {
   try {
