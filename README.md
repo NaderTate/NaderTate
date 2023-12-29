@@ -58,9 +58,9 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
 <div  style="display: flex; flex-wrap: wrap;justify-content:">
 
 <!-- Begin posts section -->
+
 <svg fill="none" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-<a href="https://www.nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank">
+  <foreignObject width="100%" height="100%"> <a href="https://www.nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank">
     <div style="position:relative;width:400px; overflow:hidden; margin:10px;">
       <img style="width:100%;border-radius:3px" src="https://cdn.sanity.io/images/qt6wz604/production/0585eaf18a9d120af19520256fb9302119f95653-1069x611.webp">
       <div style="border-radius:3px;position: absolute; bottom:5px; padding:5px; backdrop-filter: blur(10px); width:100%; background-color:rgba(0, 0, 0, 0.3); color:white">
@@ -68,23 +68,10 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
         <span style="display:block;font-size:14;white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Literally 1 click will create a new repo and connect it with your project</span>
       </div>
     </div>
-  </a>
-  </foreignObject>
-</svg>
+  </a> </foreignObject>
+  </svg>
 <svg fill="none" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-<a href="https://www.nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank">
-    <div style="position:relative;width:400px; overflow:hidden; margin:10px;">
-      <img style="width:100%;border-radius:3px" src="https://cdn.sanity.io/images/qt6wz604/production/0585eaf18a9d120af19520256fb9302119f95653-1069x611.webp">
-      <div style="border-radius:3px;position: absolute; bottom:5px; padding:5px; backdrop-filter: blur(10px); width:100%; background-color:rgba(0, 0, 0, 0.3); color:white">
-        <span style="display:block;font-size:18px;font-weight:500;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Create a new repo and push your code with 1 click</span>
-        <span style="display:block;font-size:14;white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Literally 1 click will create a new repo and connect it with your project</span>
-      </div>
-    </div>
-  </a>
-  </foreignObject>
-</svg>
-<a href="https://www.nailed-it.tech/articles/format-prisma-schema-with-prettier" target="_blank">
+  <foreignObject width="100%" height="100%"> <a href="https://www.nailed-it.tech/articles/format-prisma-schema-with-prettier" target="_blank">
     <div style="position:relative;width:400px; overflow:hidden; margin:10px;">
       <img style="width:100%;border-radius:3px" src="https://cdn.sanity.io/images/qt6wz604/production/b00d75307475eefa1f64f66354b36492a155516e-1069x611.webp">
       <div style="border-radius:3px;position: absolute; bottom:5px; padding:5px; backdrop-filter: blur(10px); width:100%; background-color:rgba(0, 0, 0, 0.3); color:white">
@@ -92,8 +79,10 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
         <span style="display:block;font-size:14;white-space: nowrap; overflow: hidden; text-overflow: ellipsis">This little trick will make your life easier</span>
       </div>
     </div>
-  </a>
-<a href="https://www.nailed-it.tech/articles/how-to-use-clerk-to-protect-your-route-handlers" target="_blank">
+  </a> </foreignObject>
+  </svg>
+<svg fill="none" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%"> <a href="https://www.nailed-it.tech/articles/how-to-use-clerk-to-protect-your-route-handlers" target="_blank">
     <div style="position:relative;width:400px; overflow:hidden; margin:10px;">
       <img style="width:100%;border-radius:3px" src="https://cdn.sanity.io/images/qt6wz604/production/0e04edcfbfa1d6c60fff91c7387ee23aff37a2e2-1069x611.webp">
       <div style="border-radius:3px;position: absolute; bottom:5px; padding:5px; backdrop-filter: blur(10px); width:100%; background-color:rgba(0, 0, 0, 0.3); color:white">
@@ -101,7 +90,8 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
         <span style="display:block;font-size:14;white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Clerk can also protect route handlers, Nice</span>
       </div>
     </div>
-  </a>
+  </a> </foreignObject>
+  </svg>
 
 <!-- End posts section -->
 </div>
