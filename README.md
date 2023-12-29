@@ -53,14 +53,5 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
 #
 
 <!-- Begin posts section -->
-<a href="https://www.chaturbate.com" target="_blank">
-<div style="position:relative; overflow:hidden">
-<img style="width:100%" src="post thu">
-<div style = "position: absolute; bottom:0; padding:20px; backdrop-filter: blur(10px); width:100%">
-<h3 style="font-size:30px">Post title</h3>
-<h3>Post description </h3>
-</div>
-</div>
-</a>
- 
+
 <!-- End posts section -->
