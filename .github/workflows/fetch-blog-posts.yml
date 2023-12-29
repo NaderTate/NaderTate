@@ -3,7 +3,7 @@ name: Fetch Blog Posts
 on:
   schedule:
     - cron: "0 0 * * *" # Run every day at midnight UTC
-
+  workflow_dispatch:
 jobs:
   fetch-blog-posts:
     runs-on: ubuntu-latest
