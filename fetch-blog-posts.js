@@ -1,12 +1,5 @@
 import fs from "fs/promises"; // Use fs.promises for async file operations
-type post = {
-  title: string;
-  description: string;
-  slug: {
-    current: string;
-  };
-  thumbnail: string;
-};
+
 const apiUrl = "https://nailed-it.tech/api/posts";
 const fetchPosts = async () => {
   try {
@@ -18,7 +11,7 @@ const fetchPosts = async () => {
     throw new Error(error);
   }
 };
-function generatePostCard(post: post) {
+function generatePostCard(post) {
   return `
     <a href="https://www.nailed-it.tech/${post.slug.current}" target="_blank">
       <div style="position:relative;width:400px; overflow:hidden">
@@ -31,7 +24,7 @@ function generatePostCard(post: post) {
       </a>
     `;
 }
-async function generateReadme(posts: post[]) {
+async function generateReadme(posts) {
   try {
     // Read existing content of README file
     const existingContent = await fs.readFile("README.md", "utf-8");
