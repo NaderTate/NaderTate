@@ -78,7 +78,7 @@ async function generateReadme(posts) {
         beginTagIndex + beginTag.length
       );
       const afterPosts = existingContent.substring(endTagIndex);
-      const newPostsContent = posts.map(generatePostCard).join("\n");
+      const newPostsContent = posts.map(await generatePostCard()).join("\n");
       const updatedContent = `${beforePosts}\n\n${newPostsContent}\n\n${afterPosts}`;
 
       // Write the updated content back to the README file

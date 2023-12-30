@@ -9,7 +9,7 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
 ## 🧰 Languages and tools
 
 <img width="30px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" />
-    &#8287;&#8287;&#8287;&#8287;
+ &#8287;&#8287;&#8287;&#8287;
 <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />  &#8287;&#8287;&#8287;&#8287;
 <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />  &#8287;&#8287;&#8287;&#8287;
 <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />  &#8287;&#8287;&#8287;&#8287;
