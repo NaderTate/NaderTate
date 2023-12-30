@@ -36,25 +36,27 @@ const fetchImage = async (url) => {
     throw new Error(error);
   }
 };
-
 const apiUrl = "https://nailed-it.tech/api/posts?limit=6";
 const fetchPosts = async () => {
   try {
     const response = await fetch(apiUrl);
-    const posts = await response.json();
+    let posts = await response.json();
+    for (const post of posts) {
+      const thumbnail = await fetchImage(
+        `https://nailed-it.tech/articles/${post.slug.current}`
+      );
+      post.thumbnail = thumbnail;
+    }
     return posts;
   } catch (error) {
     console.error(error);
     throw new Error(error);
   }
 };
-async function generatePostCard(post) {
+
+function generatePostCard(post) {
   console.log(post);
-  const thumbnail = await fetchImage(
-    `https://nailed-it.tech/articles/${post.slug.current}`
-  );
-  console.log({ thumbnail });
-  return `<a href="https://nailed-it.tech/articles/${post.slug.current}" target="_blank"><img src="${thumbnail}" width="450" ></a>`;
+  return `<a href="https://nailed-it.tech/articles/${post.slug.current}" target="_blank"><img src="${post.thumbnail}" width="450" ></a>`;
 }
 async function generateReadme(posts) {
   try {
@@ -79,9 +81,7 @@ async function generateReadme(posts) {
         beginTagIndex + beginTag.length
       );
       const afterPosts = existingContent.substring(endTagIndex);
-      const newPostsContent = posts
-        .map(async (post) => `- ${await generatePostCard(post)}`)
-        .join("\n");
+      const newPostsContent = posts.map(generatePostCard).join("\n");
       const updatedContent = `${beforePosts}\n\n${newPostsContent}\n\n${afterPosts}`;
 
       // Write the updated content back to the README file
