@@ -2,5 +2,8 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.10.5"
+  },
+  "dependencies": {
+    "jsdom": "^23.0.1"
   }
 }
