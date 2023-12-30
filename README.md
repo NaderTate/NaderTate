@@ -37,5 +37,12 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
 <p align="left">
 <!-- Begin posts section -->
 
+[object Promise]
+[object Promise]
+[object Promise]
+[object Promise]
+[object Promise]
+[object Promise]
+
 <!-- End posts section -->
 </p>
