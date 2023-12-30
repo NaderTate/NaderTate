@@ -49,6 +49,7 @@ const fetchPosts = async () => {
   }
 };
 async function generatePostCard(post) {
+  console.log(post);
   const thumbnail = await fetchImage(
     `https://nailed-it.tech/articles/${post.slug.current}`
   );
@@ -78,7 +79,9 @@ async function generateReadme(posts) {
         beginTagIndex + beginTag.length
       );
       const afterPosts = existingContent.substring(endTagIndex);
-      const newPostsContent = posts.map(await generatePostCard()).join("\n");
+      const newPostsContent = posts
+        .map(async (post) => `- ${await generatePostCard(post)}`)
+        .join("\n");
       const updatedContent = `${beforePosts}\n\n${newPostsContent}\n\n${afterPosts}`;
 
       // Write the updated content back to the README file
