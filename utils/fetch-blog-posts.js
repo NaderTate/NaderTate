@@ -55,8 +55,7 @@ const fetchPosts = async () => {
 };
 
 function generatePostCard(post) {
-  console.log(post);
-  return `<a href="https://nailed-it.tech/articles/${post.slug.current}" target="_blank"><img src="${post.thumbnail}" width="450" ></a>`;
+  return `<a href="https://nailed-it.tech/articles/${post.slug.current}" target="_blank"><img src="${post.thumbnail}" width="350" /></a>`;
 }
 async function generateReadme(posts) {
   try {
