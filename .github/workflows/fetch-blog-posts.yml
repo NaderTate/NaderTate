@@ -18,7 +18,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install @types/node
+        run: npm install @types/node jsdom
 
       - name: Fetch Blog Posts
         run: node utils/fetch-blog-posts.js
