@@ -1,5 +1,6 @@
-import fs from "fs/promises"; // Use fs.promises for async file operations
+import fs from "fs/promises";
 import { JSDOM } from "jsdom";
+
 // Function to fetch HTML content from a URL
 async function fetchHtml(url) {
   try {
@@ -20,8 +21,6 @@ function extractOGImage(html) {
   return ogImage ? ogImage.getAttribute("content") : null;
 }
 
-// Example usage
-
 const fetchImage = async (url) => {
   try {
     const html = await fetchHtml(url);
@@ -36,10 +35,9 @@ const fetchImage = async (url) => {
     throw new Error(error);
   }
 };
-const apiUrl = "https://nailed-it.tech/api/posts?limit=6";
 const fetchPosts = async () => {
   try {
-    const response = await fetch(apiUrl);
+    const response = await fetch("https://nailed-it.tech/api/posts?limit=6");
     let posts = await response.json();
     for (const post of posts) {
       const thumbnail = await fetchImage(
@@ -96,10 +94,10 @@ async function generateReadme(posts) {
     throw error;
   }
 }
+
 const main = async () => {
   const posts = await fetchPosts();
   await generateReadme(posts);
-
-  // console.log(posts);
 };
+
 main();
