@@ -53,8 +53,8 @@ const fetchPosts = async () => {
 };
 
 function generatePostCard(post) {
-  const key = Math.random()*100
-  return `<a key={${key}} href="https://nailed-it.tech/articles/${post.slug.current}" target="_blank"><img src="${post.thumbnail}" width="400" /></a>`;
+  const key = Math.random() * 100;
+  return `<a key=${key} href="https://nailed-it.tech/articles/${post.slug.current}" target="_blank"><img src="${post.thumbnail}" width="400" /></a>`;
 }
 async function generateReadme(posts) {
   try {
