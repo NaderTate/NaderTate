@@ -50,6 +50,9 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
 
 <!-- End posts section -->
 </p>
+<!-- ### 📊 Stats
+
+![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=nadertate&show_icons=true&theme=gruvbox) -->
 
 <details> <summary><h2>🛣️ My coding journey</h2></summary>
 When I way young, I was impressed when I see a guy in a movie typing stuff on the keyboard leading to something happening in real life like a door closin or a robot moving.
