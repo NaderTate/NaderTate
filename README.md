@@ -41,6 +41,13 @@ I'm an indie full stack deveoper mainly using Next.JS, I like building projects 
 <p align="left">
 <!-- Begin posts section -->
 
+<a key=2.7732058929343495 href="https://nailed-it.tech/articles/how-to-enable-password-reset-using-auth-js" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-password-reset-using-auth-js/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=35.57217396194654 href="https://nailed-it.tech/articles/how-to-add-2-factor-authentication-using-auth-js" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-2-factor-authentication-using-auth-js/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=9.092656304572898 href="https://nailed-it.tech/articles/how-to-enable-email-verification-using-auth-js" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-email-verification-using-auth-js/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=41.61672773183547 href="https://nailed-it.tech/articles/how-to-add-credential-authentication-using-auth-js-and-next-14" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-credential-authentication-using-auth-js-and-next-14/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=80.59237839738475 href="https://nailed-it.tech/articles/i-tried-the-best-2-ui-libraries-here-is-my-experience" target="_blank"><img src="https://nailedit.vercel.app/articles/i-tried-the-best-2-ui-libraries-here-is-my-experience/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=0.7794576301337619 href="https://nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank"><img src="https://nailedit.vercel.app/articles/create-a-new-repo-and-push-your-code-with-1-click/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+
 <!-- End posts section -->
 </p>
 <!-- ### 📊 Stats
