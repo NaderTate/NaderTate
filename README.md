@@ -50,9 +50,6 @@ I'm an indie full-stack developer mainly using Next.JS, I like building projects
 
 <!-- End posts section -->
 </p>
-<!-- ### 📊 Stats
-
-![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=nadertate&show_icons=true&theme=gruvbox) -->
 
 <details> <summary><h2>🛣️ My coding journey</h2></summary>
 When I was young, I was impressed when I saw a guy in a movie typing stuff on the keyboard leading to something happening in real life like a door closing or a robot moving.
@@ -83,6 +80,6 @@ Then I started to build big projects like e-commerce stores and I started to tak
 
 I learned more stuff along the way like UI libraries, writing clean code, and design principles.
 
-I'm working on contributig to open source and building bigger projects.
+I'm working on contributing to open source and building bigger projects.
 
 </details>
