@@ -41,12 +41,12 @@ I'm an indie full-stack developer mainly using Next.JS, I like building projects
 <p align="left">
 <!-- Begin posts section -->
 
-<a key=52.80942912292552 href="https://nailed-it.tech/articles/how-to-add-credential-authentication" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-credential-authentication/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=88.18898247361298 href="https://nailed-it.tech/articles/how-to-enable-email-verification-auth-js" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-email-verification-auth-js/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=75.5837280092421 href="https://nailed-it.tech/articles/how-to-enable-password-reset" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-password-reset/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=43.82444995242136 href="https://nailed-it.tech/articles/i-tried-the-best-2-ui-libraries" target="_blank"><img src="https://nailedit.vercel.app/articles/i-tried-the-best-2-ui-libraries/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=16.264851061949326 href="https://nailed-it.tech/articles/how-to-add-2-factor-authentication" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-2-factor-authentication/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=21.410518109800257 href="https://nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank"><img src="https://nailedit.vercel.app/articles/create-a-new-repo-and-push-your-code-with-1-click/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=38.87840144913311 href="https://nailed-it.tech/articles/how-to-add-credential-authentication" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-credential-authentication/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=19.973250795805253 href="https://nailed-it.tech/articles/how-to-enable-email-verification-auth-js" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-email-verification-auth-js/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=12.913077401831208 href="https://nailed-it.tech/articles/how-to-enable-password-reset" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-password-reset/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=22.422911752074093 href="https://nailed-it.tech/articles/i-tried-the-best-2-ui-libraries" target="_blank"><img src="https://nailedit.vercel.app/articles/i-tried-the-best-2-ui-libraries/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=78.77771639076425 href="https://nailed-it.tech/articles/how-to-add-2-factor-authentication" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-2-factor-authentication/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
+<a key=79.27066358433721 href="https://nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank"><img src="https://nailedit.vercel.app/articles/create-a-new-repo-and-push-your-code-with-1-click/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
 
 <!-- End posts section -->
 </p>
