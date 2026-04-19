@@ -2,7 +2,7 @@
 
 `full stack developer / AI enthusiast`
 
-![me](me.webp)
+![me](banner.webp)
 
 I'm an indie full-stack developer mainly using Next.JS, I like building projects that solve a problem either for me or others. All my projects are built solo from designing, developing, testing, and deploying. All the content in my blog [nailed-it](https://nailed-it.tech) is written and published by me. I learned developing out of curiosity, now been doing it for over 10 years and I'm loving it.
 
