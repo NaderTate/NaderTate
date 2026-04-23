@@ -4,7 +4,7 @@
 
 ![me](banner.webp)
 
-I'm an indie full-stack developer mainly using Next.JS, I like building projects that solve a problem either for me or others. All my projects are built solo from designing, developing, testing, and deploying. All the content in my blog [nailed-it](https://nailed-it.tech) is written and published by me. I learned developing out of curiosity, now been doing it for over 10 years and I'm loving it.
+I've spent 6 years in the weeds of full-stack dev, but my real focus lately has been AI voice agents. Most people just slap a Vapi wrapper on a project and call it a day, I don't. I build custom, low-latency stuff directly on the latest Google Live API models. It's about more than just "chatting"; it's about autonomous tool-calling that collects valuable data, delivers the best customer experience, and doesn't break under high traffic.
 
 #
 
@@ -35,21 +35,6 @@ I'm an indie full-stack developer mainly using Next.JS, I like building projects
 </p>
 
 #
-
-## 📝Latest articles
-
-<p align="left">
-<!-- Begin posts section -->
-
-<a key=77.04539041151033 href="https://nailed-it.tech/articles/how-to-add-credential-authentication" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-credential-authentication/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=25.947770806148185 href="https://nailed-it.tech/articles/how-to-enable-email-verification-auth-js" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-email-verification-auth-js/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=51.55605099477303 href="https://nailed-it.tech/articles/how-to-enable-password-reset" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-enable-password-reset/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=34.57005740662164 href="https://nailed-it.tech/articles/i-tried-the-best-2-ui-libraries" target="_blank"><img src="https://nailedit.vercel.app/articles/i-tried-the-best-2-ui-libraries/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=82.70643987889412 href="https://nailed-it.tech/articles/how-to-add-2-factor-authentication" target="_blank"><img src="https://nailedit.vercel.app/articles/how-to-add-2-factor-authentication/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-<a key=96.12473835325093 href="https://nailed-it.tech/articles/create-a-new-repo-and-push-your-code-with-1-click" target="_blank"><img src="https://nailedit.vercel.app/articles/create-a-new-repo-and-push-your-code-with-1-click/opengraph-image-1n7hps?23b6baaca7ad2462" width="400" /></a>
-
-<!-- End posts section -->
-</p>
 
 <details> <summary><h2>🛣️ My coding journey</h2></summary>
 When I was young, I was impressed when I saw a guy in a movie typing stuff on the keyboard leading to something happening in real life like a door closing or a robot moving.
